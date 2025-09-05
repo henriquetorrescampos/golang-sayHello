@@ -17,7 +17,7 @@ func main() {
 
 	var num int
 
-	fmt.Print("Digita um número para calcular fibonnaci: ")
+	fmt.Print("Digita um número para calcular fibonnaci..: ")
 	_, err := fmt.Scan(&num)
 
 	if err != nil {
@@ -27,5 +27,5 @@ func main() {
 
 	fibResult, _ := fibonnaci.Fibonnaci(num)
 
-	fmt.Println("O reusltado Fibonnaci do número", num, "é", fibResult)
+	fmt.Println(fmt.Sprintf("O resultado Fibonnaci do número %d é %d.", num, fibResult))
 }
