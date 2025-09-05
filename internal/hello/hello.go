@@ -9,4 +9,5 @@ import "fmt"
 func SayHello() {
 	// Imprime uma mensagem no console
 	fmt.Println("Essa é a função SayHello() escrita em Golang.")
+
 }
